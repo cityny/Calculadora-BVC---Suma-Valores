@@ -66,7 +66,7 @@ const CalculatorForm = ({ data, onChange }) => {
             <div className="space-y-2">
                 <label htmlFor="precio" className="flex items-center gap-2 text-sm font-semibold text-slate-700">
                     <CircleDollarSign size={16} className="text-slate-400" />
-                    Precio por Valor (Bs)
+                    Precio del Título/Valor (Bs)
                 </label>
                 <div className="relative">
                     <input
@@ -98,9 +98,9 @@ const CalculatorForm = ({ data, onChange }) => {
                         <Building2 size={20} className="text-slate-500" />
                     </div>
                     <div className="flex flex-col">
-                        <span className="text-sm font-bold text-slate-700">Recargo por Otro Banco</span>
-                        <span className="text-[10px] text-slate-500 uppercase tracking-tight" title="Recargo del 1.5% sobre el total inicial por transferencia de otros bancos">
-                            Aplica 1.5% ADICIONAL
+                        <span className="text-sm font-bold text-slate-700">Fondos de Otros Bancos (No BNC)</span>
+                        <span className="text-[10px] text-slate-500 uppercase tracking-tight" title="Aplica recargo del 1.55% si el pago proviene de una entidad distinta al BNC">
+                            Si el pago no es BNC aplica 1.5%
                         </span>
                     </div>
                 </div>

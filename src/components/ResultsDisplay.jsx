@@ -49,10 +49,10 @@ const ResultsDisplay = ({ results }) => {
 
             {recargo > 0 && (
                 <Row
-                    label="Recargo 1.5% (Otro Banco)"
+                    label="Recargo 1.55% (No BNC)"
                     value={recargo}
                     isHighlight
-                    tooltip="Cargo adicional por conciliación de fondos de otra entidad financiera"
+                    tooltip="Cargo adicional del 1.55% aplicado a fondos provenientes de bancos distintos al BNC"
                 />
             )}
 

@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { calculateFinancials } from './logic/calculator';
 import CalculatorForm from './components/CalculatorForm';
 import ResultsDisplay from './components/ResultsDisplay';
-import { Calculator, ReceiptText, TrendingUp, Sparkles } from 'lucide-react';
+import { Calculator, ReceiptText, TrendingUp, Sparkles, MessageCircle } from 'lucide-react';
 
 function App() {
     // Estado para los inputs del formulario
@@ -95,13 +95,13 @@ function App() {
                     <div className="bg-gradient-to-r from-slate-800 to-slate-900 text-white p-6 rounded-2xl shadow-xl relative overflow-hidden group">
                         <div className="relative z-10 flex flex-col md:flex-row justify-between items-center gap-4">
                             <div className="flex items-center gap-4">
-                                <div className="bg-blue-500/20 p-3 rounded-xl border border-blue-500/30">
-                                    <TrendingUp className="w-6 h-6 text-blue-300" />
+                                <div className="bg-green-500/20 p-3 rounded-xl border border-green-500/30">
+                                    <MessageCircle className="w-6 h-6 text-green-400" />
                                 </div>
                                 <div>
-                                    <h3 className="text-lg font-bold text-blue-300">Análisis de Gráficas Pro</h3>
+                                    <h3 className="text-lg font-bold text-green-300">Notificaciones vía WhatsApp Pro</h3>
                                     <p className="text-slate-400 text-xs md:text-sm">
-                                        Proyecciones avanzadas y tendencias del mercado en tiempo real.
+                                        Recibe alertas de precios y confirmaciones directamente en tu móvil.
                                     </p>
                                 </div>
                             </div>

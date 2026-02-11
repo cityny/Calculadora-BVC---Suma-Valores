@@ -32,7 +32,17 @@ function App() {
                 <div className="max-w-4xl mx-auto flex justify-between items-center">
                     <h1 className="text-2xl md:text-3xl font-bold tracking-tight">
                         Calculadora Comisiones
-                        <span className="block text-sm font-normal text-blue-200">Desarrollado por Ing. Dionny Nuñez</span>
+                        <span className="block text-sm font-normal text-blue-200">
+                            Desarrollado por{" "}
+                            <a
+                                href="https://cityny.github.io/cityny/index.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline decoration-blue-400 decoration-dotted underline-offset-4 hover:text-white hover:decoration-solid transition-all"
+                            >
+                                Ing. Dionny Nuñez
+                            </a>
+                        </span>
                     </h1>
                     <div className="hidden md:block">
                         <span className="bg-blue-600 px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">

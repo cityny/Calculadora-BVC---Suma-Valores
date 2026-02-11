@@ -53,7 +53,7 @@ const CalculatorForm = ({ data, onChange }) => {
                         placeholder="Ej: 100"
                         min="1"
                     />
-                    <span className="absolute right-4 top-3.5 text-slate-400 text-[10px] uppercase font-bold tracking-wider bg-slate-50 px-2 py-0.5 rounded-md border border-slate-100">
+                    <span className="absolute right-4 top-3.5 text-slate-500 text-[10px] uppercase font-bold tracking-wider bg-slate-50 px-2 py-0.5 rounded-md border border-slate-100">
                         Unidades
                     </span>
                 </div>
@@ -82,7 +82,7 @@ const CalculatorForm = ({ data, onChange }) => {
                         placeholder="Ej: 45.50"
                         min="0.01"
                     />
-                    <span className="absolute right-4 top-3.5 text-slate-400 text-[10px] uppercase font-bold tracking-wider bg-slate-50 px-2 py-0.5 rounded-md border border-slate-100">
+                    <span className="absolute right-4 top-3.5 text-slate-500 text-[10px] uppercase font-bold tracking-wider bg-slate-50 px-2 py-0.5 rounded-md border border-slate-100">
                         Bs
                     </span>
                 </div>

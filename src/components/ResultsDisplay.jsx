@@ -101,7 +101,7 @@ const ResultsDisplay = ({ results }) => {
 
             <Row
                 id="total"
-                label="Total a Pagar / Recibir"
+                label="Total a Pagar"
                 value={totalFinal}
                 isTotal
             />

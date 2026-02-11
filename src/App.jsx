@@ -31,8 +31,8 @@ function App() {
             <header className="bg-blue-700 text-white py-6 px-4 shadow-lg">
                 <div className="max-w-4xl mx-auto flex justify-between items-center">
                     <h1 className="text-2xl md:text-3xl font-bold tracking-tight">
-                        Calculadora BVC
-                        <span className="block text-sm font-normal text-blue-200">Suma Valores - MVP</span>
+                        Calculadora Comisiones
+                        <span className="block text-sm font-normal text-blue-200">Desarrollado por Ing. Dionny Nuñez</span>
                     </h1>
                     <div className="hidden md:block">
                         <span className="bg-blue-600 px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">

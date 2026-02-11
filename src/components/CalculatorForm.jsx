@@ -16,6 +16,23 @@ const CalculatorForm = ({ data, onChange }) => {
     const [showBankTooltip, setShowBankTooltip] = React.useState(false);
 
     /**
+     * ## Manejo de Eventos: handleKeyDown
+     * Permite saltar al siguiente campo al presionar Enter.
+     */
+    const handleKeyDown = (e) => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            const form = e.target.form;
+            const index = Array.prototype.indexOf.call(form, e.target);
+            const nextElement = form.elements[index + 1];
+
+            if (nextElement && (nextElement.tagName === 'INPUT' || nextElement.tagName === 'SELECT')) {
+                nextElement.focus();
+            }
+        }
+    };
+
+    /**
      * ## Manejo de Eventos: handleChange
      * 
      * Esta función unifica la captura de cambios tanto de inputs numéricos como de checkboxes.
@@ -29,7 +46,7 @@ const CalculatorForm = ({ data, onChange }) => {
     };
 
     return (
-        <form className="space-y-6">
+        <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
 
             {/* 
                 ## Sección: Entrada de Cantidad
@@ -48,6 +65,7 @@ const CalculatorForm = ({ data, onChange }) => {
                         name="cantidad"
                         value={data.cantidad}
                         onChange={handleChange}
+                        onKeyDown={handleKeyDown}
                         // Aquí es donde ves el color de fondo: 'bg-white'
                         className="w-full bg-white px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none text-slate-800 font-medium"
                         placeholder="Ej: 100"
@@ -76,6 +94,7 @@ const CalculatorForm = ({ data, onChange }) => {
                         name="precio"
                         value={data.precio}
                         onChange={handleChange}
+                        onKeyDown={handleKeyDown}
                         step="0.01"
                         // Color de fondo definido por 'bg-white'
                         className="w-full bg-white px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all outline-none text-slate-800 font-medium"

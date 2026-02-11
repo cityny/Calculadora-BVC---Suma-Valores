@@ -128,7 +128,7 @@ function App() {
                     </p>
                     <div className="flex justify-center mt-4">
                         <img
-                            src="https://komarev.com/ghpvc/?username=cityny-calculadora-bvc&color=blue&style=flat-square&label=VISITAS"
+                            src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcalculadorave.netlify.app&count_bg=%231D4ED8&title_bg=%2364748B&icon=&icon_color=%23E7E7E7&title=VISITAS&edge_flat=true"
                             alt="Contador de Visitas"
                             className="opacity-80 hover:opacity-100 transition-opacity"
                         />

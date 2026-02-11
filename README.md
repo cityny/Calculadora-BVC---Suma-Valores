@@ -4,7 +4,7 @@
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Netlify Status](https://img.shields.io/badge/Netlify-Success-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://calculadorave.netlify.app/)
-[![Visitas](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcalculadorave.netlify.app&count_bg=%231D4ED8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=VISITAS&edge_flat=false)](https://calculadorave.netlify.app/)
+[![Visitas](https://visitor-badge.laobi.icu/badge?page_id=calculadorave.netlify.app&left_text=VISITAS&left_color=%2364748b&right_color=%231d4ed8)](https://calculadorave.netlify.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 Una herramienta financiera de alto rendimiento diseñada específicamente para inversores y casas de bolsa que operan en la **Bolsa de Valores de Caracas (BVC)**. Esta aplicación ofrece un cálculo exacto, instantáneo y profesional de las comisiones y cargos asociados a la compra/venta de títulos valores con la empresa "Suma Valores".

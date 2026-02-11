@@ -6,7 +6,7 @@
 [![Netlify Status](https://img.shields.io/badge/Netlify-Success-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://calculadorave.netlify.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Una herramienta financiera de alto rendimiento diseñada específicamente para inversores y casas de bolsa que operan en la **Bolsa de Valores de Caracas (BVC)**. Esta aplicación ofrece un cálculo exacto, instantáneo y profesional de las comisiones y cargos asociados a la compra/venta de títulos valores.
+Una herramienta financiera de alto rendimiento diseñada específicamente para inversores y casas de bolsa que operan en la **Bolsa de Valores de Caracas (BVC)**. Esta aplicación ofrece un cálculo exacto, instantáneo y profesional de las comisiones y cargos asociados a la compra/venta de títulos valores con la empresa "Suma Valores".
 
 ---
 
